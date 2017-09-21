@@ -7,7 +7,7 @@ using namespace std;
 
 
 
-int SIZE = 32;
+int SIZE = 16;
 
 //returns true if k'th bit is set
 bool testBit(unsigned long long code, int k){
