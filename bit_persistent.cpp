@@ -31,50 +31,7 @@ void andBit(unsigned long long &code, int k){
 
 int main() {
 
-/*
-	
-	unsigned long long zero = 0;
-	zero = ~zero;
-	unsigned long long one = 0;
-	one = ~one;
 
-
-	unsigned long long checkmate[] = {31233413,1235,347,2531,1241,4663,221};
-
-	for(int i = 0; i < 7; i++){
-
-		zero = ~checkmate[i] & zero;
-		one = checkmate[i] & one;
-
-
-	}
-
-
-	cout << bitset<32>(zero) << endl;
-	cout << bitset<32>(one) << endl;
-
-	char result[SIZE];
-
-	for(int i = 0; i < SIZE; i++){
-		result[i] = '?';
-	}
-
-	for(int i = 0; i < SIZE; i++){
-		if(testBit(zero,i)){
-			 
-			result[i] = '0';
-
-		}
-
-		if(testBit(one,i)){
-			result[i] ='1';
-		}
-	}
-
-	for(int k = SIZE -1; k >= 0; k--){
-		cout << result[k] << "";
-	}
-*/
 
 	int endFlag = 0;
 	while( endFlag == 0){
